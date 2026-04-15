@@ -2,11 +2,10 @@
 
 **A Cinematic Movie Discovery & Personalization App** _Built with React Native, Expo, Appwrite, and TMDB API._
 
-[![Build Status](https://img.shields.io/badge/Build-EAS--Passed-success)](https://expo.dev/)
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://expo.dev/accounts/salonyy/projects/CineNative/builds/1f85f246-febf-4e37-89b3-51328a6fe666)
+[![Build Status](https://img.shields.io/badge/Build-Success-success?style=flat-square)](https://expo.dev/accounts/salonyy/projects/CineNative/builds/1f85f246-febf-4e37-89b3-51328a6fe666)
 [![Tech](https://img.shields.io/badge/Architecture-Clean--UI-blue)](#project-architecture)
 [![Tier](https://img.shields.io/badge/Level-Professional-gold)](#key-features)
-
-CineNative is a high-performance mobile application designed for film enthusiasts. It combines a cinematic UI with robust backend integration to provide real-time movie tracking, user authentication, and personalized watchlists.
 
 ---
 
@@ -17,21 +16,17 @@ CineNative is a high-performance mobile application designed for film enthusiast
     <tr>
       <td width="50%">
         <p align="center"><b>🎬 Discover Movies</b></p>
-        <img src="https://via.placeholder.com/300x600.png?text=Home+Screen+Mockup" width="280" alt="Home Screen"/>
+        <img src="./assets/docs/discover.jpeg" width="280" alt="Home Screen"/>
       </td>
       <td width="50%">
         <p align="center"><b>🔍 Smart Search</b></p>
-        <img src="https://via.placeholder.com/300x600.png?text=Search+Screen+Mockup" width="280" alt="Search Screen"/>
+        <img src="./assets/docs/search.jpeg" width="280" alt="Search Screen"/>
       </td>
     </tr>
     <tr>
       <td width="50%">
-        <p align="center"><b>🔐 Cloud Auth</b></p>
-        <img src="https://via.placeholder.com/300x600.png?text=Login+Screen+Mockup" width="280" alt="Login Screen"/>
-      </td>
-      <td width="50%">
         <p align="center"><b>⭐ Personal Watchlist</b></p>
-        <img src="https://via.placeholder.com/300x600.png?text=Profile+Screen+Mockup" width="280" alt="Watchlist Screen"/>
+        <img src="./assets/docs/watchlist.jpeg" width="280" alt="Watchlist Screen"/>
       </td>
     </tr>
   </table>
@@ -39,7 +34,6 @@ CineNative is a high-performance mobile application designed for film enthusiast
   <br />
   <i>"CineNative leverages high-resolution imagery from TMDB with smooth, native transitions for a premium viewing experience."</i>
 </div>
-
 ---
 
 ## 🏗 Project Architecture
