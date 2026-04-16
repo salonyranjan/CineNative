@@ -34,6 +34,7 @@
   <br />
   <i>"CineNative leverages high-resolution imagery from TMDB with smooth, native transitions for a premium viewing experience."</i>
 </div>
+
 ---
 
 ## 🏗 Project Architecture
@@ -287,19 +288,10 @@ eas build --platform android --profile preview
   <a href="https://www.linkedin.com/in/salony-ranjan-b63200280/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://salonyranjan.github.io/VertexFlow">
-    <img src="https://img.shields.io/badge/Portfolio-VertexFlow-61DAFB?style=for-the-badge&logo=react" alt="VertexFlow Portfolio" />
-  </a>
   <a href="mailto:salonyranjan@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
-
-### 🌟 Other Projects by the Author
-
-- **[VertexFlow](./)**: A cinematic 3D portfolio experience built with Three.js and GSAP.
-- **[PageWhisper](./)**: AI SaaS transforming PDFs into voice-synthesized personas using RAG.
-- **[SkillBridge AI](./)**: Full-stack career accelerator platform with AI-driven insights.
 
 ---
 
