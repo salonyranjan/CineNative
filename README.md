@@ -28,6 +28,10 @@
         <p align="center"><b>⭐ Personal Watchlist</b></p>
         <img src="./assets/docs/watchlist.jpeg" width="280" alt="Watchlist Screen"/>
       </td>
+      <td width="33%">
+        <p align="center"><b>✨ Details View</b></p>
+        <img src="./assets/docs/details.jpeg" width="280" alt="Movie Details Screen"/>
+      </td>
     </tr>
   </table>
 
