@@ -1,15 +1,15 @@
-name: Project Keep-Alive
+name: Appwrite Keep-Alive
 
 on:
   schedule:
     # Runs at 00:00 UTC every 4 days
     - cron: '0 0 */4 * *'
-  workflow_dispatch: # Allows you to run it manually for testing
+  workflow_dispatch: # Allows you to run it manually
 
 jobs:
-  ping:
+  ping_appwrite:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Project URL
+      - name: Poke Appwrite Endpoint
         run: |
-          curl -I https://your-project-url.com
+          curl -I -H "X-Appwrite-Project: YOUR_PROJECT_ID" https://fra.cloud.appwrite.io/v1/health
