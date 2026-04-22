@@ -1,0 +1,15 @@
+name: Project Keep-Alive
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every 4 days
+    - cron: '0 0 */4 * *'
+  workflow_dispatch: # Allows you to run it manually for testing
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Project URL
+        run: |
+          curl -I https://your-project-url.com
