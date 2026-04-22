@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs at 00:00 UTC every 4 days
     - cron: '0 0 */4 * *'
-  workflow_dispatch: # Allows you to run it manually
+  workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
   ping_appwrite:
@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Poke Appwrite Endpoint
         run: |
-          curl -I -H "X-Appwrite-Project: YOUR_PROJECT_ID" https://fra.cloud.appwrite.io/v1/health
+          curl -I -H "X-Appwrite-Project: 69df575a0020d915277b" https://fra.cloud.appwrite.io/v1/health
